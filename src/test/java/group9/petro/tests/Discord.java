@@ -14,8 +14,8 @@ public class Discord {
         driver.manage().window().maximize();
         //                              steps:  step 1. the user is on the HOME
         driver.get("https://discord.com/login");
-        driver.findElement(By.xpath("//input[@name='email']")).sendKeys("petrokozovyi@gmail.com" + Keys.TAB);
-        driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Petrokozovyi27$" + Keys.ENTER);
+        driver.findElement(By.xpath("//input[@name='email']")).sendKeys("UserName" + Keys.TAB);
+        driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Password" + Keys.ENTER);
         Thread.sleep(5000);
         WebElement home = driver.findElement(By.xpath("//div[@class='listItemWrapper-3d87LP selected-3a1QGn']"));
         home.click();
