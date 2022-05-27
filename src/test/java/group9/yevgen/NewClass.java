@@ -1,7 +1,8 @@
-package group9.Yevgen;
+package group9.yevgen;
 
 public class NewClass {
     public static void main(String[] args) {
         //test
+        //testing
     }
 }
