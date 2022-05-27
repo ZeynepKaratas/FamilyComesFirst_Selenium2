@@ -1,0 +1,48 @@
+First we get all the requirements and test cases to test the vending machine
+Requirement can be: -> vending machine must track the inventory
+		    -> user should be able to insert bills, coins, and a card
+		    -> machine must be able to identify invalid card, insufficient cash/coin entry or invalid currency, and also unavailable item
+		    -> product can be selectable by pressing corresponding button on keypad.
+		    -> user should select 1 item at a time
+		    -> machine should do full refund if user cancels the purchase
+		    -> Finally if all successful, user should get the selected item
+
+	First we need to test functionality:
+
+--> when we enter valid method of payment with sufficient fund, we should be able to make a selection for the desired item and the machine should give the item
+    without a delay.
+	OR
+--> when whe enter invalid card or invalid currency, machine should display error message "invalid method of payment"
+--> valid card with insufficient funds or insufficient amount of bill/coin machine should display "insufficient funds for the selected item"
+--> if the item selected is not in the inventory the machine should display "unavailable selection"
+--> if user randomly press a button or buttons on the key-pad, machine should display error message "invalid selection".
+--> if user cannot provide the funds or cannot make a selection in timely manner then the amount should be returned.
+
+	Performance Testing:
+
+ -- As long as the valid payment provided and also there are available items, user should be able to make a purchase. The machine should process the purchase smoothly
+ -- Behaviour at lower or higher voltage: should adjust the voltage within the limit difference
+ -- The machine should process the purchase within an acceptable time
+
+	Hardware Testing:
+
+ -- dimension of the machine
+ -- hieght/level of dispenser
+ -- material of machine
+ -- sharp edges
+ -- door
+ -- color
+ -- voltage
+ -- temperature of the inside and the surrounding
+
+	Visibility Testing:
+
+ -- "Welcome" text should be displayed on the screen.
+ -- Verifying display screen; text size, text color, language, text dimension, pixels
+ -- All products should be visible and aranged in an order
+ -- There should be lightning inside the machine (night or day time light)
+
+	Security Testing:
+
+ -- For product security -> machine door lock/ alarm
+ -- Cash security
