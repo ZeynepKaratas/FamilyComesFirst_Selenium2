@@ -1,8 +1,7 @@
 package group9.petro.homework;
 
-import group9.base.TestBase;
+import group9.petro.base.TestBase;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;

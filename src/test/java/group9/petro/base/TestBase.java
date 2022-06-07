@@ -1,4 +1,4 @@
-package group9.base;
+package group9.petro.base;
 
 import group9.petro.utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
